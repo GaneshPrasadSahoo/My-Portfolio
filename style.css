@@ -1,0 +1,234 @@
+
+#homelink{
+color: green;
+}
+
+#aboutlink:hover{
+color: green;
+}
+
+#skilllink:hover{
+  color: green;
+}
+#projectlink:hover{
+  color: green;
+}
+
+#contactlink:hover{
+  color: green;
+}
+
+
+
+
+
+
+
+
+
+
+.navbar-expand-lg .navbar-nav .nav-link{
+  padding-right: 5rem;
+
+}
+.hero{
+height: 600px;
+/* background-color: aqua; */
+}
+.hii{
+  margin-top: 100px;
+  margin-left: 40px;
+  font-size: 40px;
+}
+.ganesh{
+  margin-top: 5px;
+  margin-left: 40px;
+  font-size: 40px;
+}
+.webdev{
+  margin-left: 40px;
+}
+#myimg{
+  margin-right: 180px;
+  margin-top: 20px;
+  
+}
+.gp{
+  color: brown !important;
+  
+}
+#herobtn{
+  background-color: navy;
+  border: 2px solid navy;
+  font-size: 19px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+#socialmedia{
+  display: flex;
+  padding: 10px;
+margin-top: 10px;
+margin-left: 40px;
+}
+.linkedin{
+  /* height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid black; */
+  padding-top: 5px;
+  font-size: 25px;
+  /* background-color: black;
+  color: rgb(181, 181, 234); */
+
+}
+.github{
+  /* height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid black;  */
+  padding-top: 5px;
+  font-size: 25px;
+  margin-left: 9px;
+  /* background-color: black;
+  color: rgb(181, 181, 234); */
+}
+.instagram{
+  /* height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid black;  */
+  padding-top: 5px;
+  font-size: 25px;
+  margin-left: 9px;
+  /* background-color: black;
+  color: rgb(181, 181, 234); */
+}
+/* /circle image/ */
+/* .rounded-circle-custom {
+  border-radius: 50%;
+  width: 100px; 
+  height: 100px; 
+} */
+.rounded-circle{
+  border-radius: 50%;
+  width: 250px; 
+  height: 250px; 
+ 
+}
+
+
+.heading{
+  margin-top: 120px;
+  font-size: 50px;
+
+}
+
+.para{
+  margin-top: 20px;
+  font-size: 1.17em;
+}
+
+#myimg2{
+  height: 400px;
+float: left;
+margin-left: 30px;
+width: 300px;
+border: 10px;
+}
+
+.about{
+  background-color: #fff5f5;
+}
+#btn{
+  background-color: #fff5f5;
+  margin-top: 30px;
+}
+
+#accordion{
+  margin-top: 30px;
+}
+
+/* Contact me */
+
+#contact{
+  font-size: 50px;
+}
+
+#paracontact{
+  font-size: 15px;
+}
+
+#contactsocial{
+  font-size: 29px;
+  margin: 10px;
+}
+
+#contactsocial:hover {
+  color: aqua;
+}
+.contact{
+  background-color: #f8f8f8;
+}
+
+
+/* projects */
+.project{
+  height: 670px;
+  background-color:#f0ffff;
+}
+
+
+
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+#work{
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+

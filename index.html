@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>My Portfolio</title>
+</head>
+<body>
+  <header id="home">
+    <!-- navbar -->
+ 
+    <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 border-bottom ">
+     <div class="container-fluid">
+       <a class="navbar-brand fs-2" href="#"><img src="image/gps_logo-removebg-preview.png" height="59px" ></a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
+           <li class="nav-item">
+             <a class="nav-link active " id="homelink" aria-current="page" href="#herosec">Home</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" id="aboutlink" href="#aboutpage">About</a>
+           </li>
+           <!-- <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               Services
+             </a>
+             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <li><a class="dropdown-item" href="#service">Seo</a></li>
+               <li><a class="dropdown-item" href="#service">Web Design</a></li>
+               <li><hr class="dropdown-divider"></li>
+               <li><a class="dropdown-item" href="#service">Graphics Design</a></li>
+             </ul>
+           </li> -->
+           <li class="nav-item">
+             <a class="nav-link" id="skilllink" href="#skillpage">Skills</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" id="projectlink" href="#projectpage">Project</a>
+           </li>
+           <li class="nav-item">
+            <a class="nav-link" id="contactlink" href="#contact">Contact</a>
+          </li>
+         </ul>
+        
+       </div>
+     </div>
+   </nav>
+ </header>
+
+
+   <!-- hero section  -->
+
+   <section class="hero" id="herosec">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-6 col-sm-12 col-12">
+          <h2 class="hii">Hi There,</h2>
+          <h2 class="ganesh">I'm Ganesh <span class="text-warning">Prasad</span></h2>
+          <h5 class="webdev">I Am Into <span class="gp">Web Development</span></h5>
+          <a href="#aboutpage">
+            <button type="button" class="btn btn-primary rounded-pill" id="herobtn">About Me <i class="fa-solid fa-arrow-down"></i></button>
+          </a>
+          
+          <div id="socialmedia" class="text-center">
+            <div class="linkedin">
+              <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">
+                  <button type="button" class="btn btn-dark rounded-pill"><i class="fab fa-linkedin"></i></button>
+              </a>
+          </div>
+          
+            <div class="github">
+              <a href="https://github.com/GaneshPrasadSahoo" target="_blank" rel="noopener noreferrer">
+              <button type="button" class="btn btn-dark rounded-pill">  <i class="fab fa-github"></i></button>
+            </a>
+            </div>
+            <div class="instagram">
+              <a href="https://www.instagram.com/_gan_esh_18/" target="_blank" rel="noopener noreferrer">
+              <button type="button" class="btn btn-dark rounded-pill">  <i class="fab fa-instagram"></i></button>
+            </div>
+          </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 col-sm-12 col-12 m-auto text-center">
+          <img src="image/1685100906115-removebg-preview.png" class="img-fluid rounded-circle border border-primary bg-warning img-fluid img-thumbnail" id="myimg" alt="My Image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- About -->
+
+
+  <section class="about" id="aboutpage">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-lg-8 col-sm-12 col-12">
+          <h1 class="heading">So, Who<span style="color: navy;"> am I?</span></h1>
+
+          <div class="col-md-8 col-lg-8 col-sm-12 col-12 ">
+          <p class="para">"Hello World! I'm a web developer with a deep love for tea and a passion for freelancing. My heart belongs to the world of coding, where I craft digital wonders and bring ideas to life. Despite being a fresher, I approach every project with determination and a thirst for knowledge, eager to make magic happen. Beyond coding, I find inspiration in nature, books, and community service, believing in the power of diverse experiences to fuel creativity. So, whether I'm coding from a cozy café or exploring a new corner of the world, I'm always on a mission to create, innovate, and make the web a more exciting place."<i class="fa-solid fa-earth-americas"></i> <i class="fa-solid fa-laptop"></i> <i class="fa-solid fa-mug-hot"></i></p>
+          </div>
+
+          <div class="col-md-8 col-lg-8 col-sm-12 col-12 ">
+            <button type="button" class="btn btn-dark text-dark" id="btn">More About Me <i class="fa-solid fa-angle-down"></i></button>
+
+          </div>
+
+          <!-- accordion -->
+
+
+          <div class="col-md-8 col-lg-8 col-sm-12 col-12 " id="accordion" >
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Education <i class="fa-solid fa-school"></i>
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <div>
+                    <h6> Bachelor of Technology in Computer Science (Current)</h6>
+                    <p>Centurion University of Technology and Management,Bhubaneswar</p>
+                    <p>year:2022-2026</p>
+                  </div>
+                  <div>
+                    <h6>Council Of Higher Secondary School,ODISHA</h6>
+                    <p>NIST Higher Secondary School,Balasore</p>
+                    <p>Passed With 76%</p>
+                    <p>year:2020-2022</p>
+                  </div>
+                  <div>
+                    <h6>Higher Secondary School,ODISHA</h6>
+                    <p>Panchyat High School,Binayakpur,Bhadrak</p>
+                    <p>Passed With 63%</p>
+                    <p>year:2018-2020</p>
+                  </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Hobbies <i class="fa-solid fa-heart" style="color: #f83f52;"></i>
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <h6>Reading </h6>
+                    <p>I love reading different kinds of books, both fiction and non-fiction. It helps me explore new perspectives and fuels my imagination.</p>
+
+                    <h6>Traveling</h6>
+                    <p>I enjoy traveling to new places. It's exciting to explore different cultures and see beautiful landscapes.Traveling broadens my horizons and inspires me.</p>
+
+                    <h6>Playing Cricket</h6>
+                    <p>
+                      Cricket is my passion, offering joy and excitement whether I'm batting, bowling, or fielding. It's more than a sport—it's a thrilling experience that teaches me valuable lessons in teamwork and perseverance.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12  m-auto text-end" >
+          <img src="image/IMG_0616.JPG" class="img -fluid img-thumbnail text-start border rounded-start" ID="myimg2" alt="">
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <!-- my Skills -->
+  
+  <section class="skill" id="skillpage">
+    <div class="container">
+      <h1 class="text-center mt-4">My <span style="color: navy;">Skills</span></h1>
+      <hr class="w-25 m-auto">
+      <div class="row">
+        <div class="col-md-6 col-lg-6 col-sm-12 col-12">
+          <h2 class="text-center mt-5">Technical Skill</h2>
+          <hr class="w-25 m-auto">
+          
+          <div class="col-md-6 col-lg-6 col-sm-12 col-12">
+            <p class="mt-5">HTML <i class="fa-brands fa-html5"></i></p>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 93%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">93%</div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6 col-sm-12 col-12">
+            <p class="mt-4">CSS<i class="fa-brands fa-css3-alt"></i></p>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6 col-sm-12 col-12">
+            <p class="mt-4">javascript<i class="fa-brands fa-js"></i></p>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-lg-6 col-sm-12 col-12">
+            <p class="mt-4">Bootstrap<i class="fa-brands fa-bootstrap"></i></p>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">95%</div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-lg-6 col-sm-12 col-12">
+            <p class="mt-4">react<i class="fa-brands fa-react"></i></p>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 28%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6 col-sm-12 col-12">
+            <p class="mt-4">java<i class="fa-brands fa-java"></i></p>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">85%</div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+        </div>
+  
+        <div class="col-md-6 col-lg-6 col-sm-12 col-12" id="prskill">
+          <h2 class="text-center mt-5">Professional Skill</h2>
+          <hr class="w-25 m-auto">
+
+
+          <div class="col-md-6 col-lg-6 col-sm-12 col-12">
+            <p class="mt-5 ">Communication Skill <i class="fa-solid fa-people-group"></i></p>
+
+          <div class="progress ">
+            <div class="progress-bar  progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">95%</div>
+          </div>
+           </div>
+
+           <div class="col-md-6 col-lg-6 col-sm-12 col-12">
+            <p class="mt-5">Problem Solving <i class="fa-regular fa-circle-check"></i></p>
+            <div class="progress ">
+              <div class="progress-bar  progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-6 col-lg-6 col-sm-12 col-12">
+            <p class="mt-5 ">Flexibility <i class="fa-regular fa-face-smile"></i></p>
+            <div class="progress ">
+              <div class="progress-bar  progress-bar-striped progress-bar-animated bg-warning " role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">85%</div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6 col-sm-12 col-12">
+            <p class="mt-5">TeamWork<i class="fa-brands fa-teamspeak"></i></p>
+            <div class="progress ">
+              <div class="progress-bar  progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 97%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">97%</div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-lg-6 col-sm-12 col-12">
+           
+             
+              </div>
+          </div>
+
+
+          <!-- extraSkills -->
+          <div class="container mt-5 ">
+            <div class="row">
+              <div class="col-md-6 col-lg-6 col-sm-12 col-12">
+                <p>
+                  <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Extra Skill</a>
+     
+                </p>
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                  <div class="card card-body">
+                    <h6>DSA</h6>
+                    <h6>Mysql</h6>
+                    <h6>GitHub</h6>
+                    <h6>Database</h6>
+                    <h6>OOPS</h6>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- project -->
+  <section class="project" id="projectpage">
+    <div class="container">
+      <h1 class="text-center mt-4" id="work">My <span style="color: navy;">Project</span></h1>
+      <hr class="w-25 m-auto">
+      <div class="row">
+        <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+          <div class="flip-card mt-5">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="image/mywork2.jpg" class="img-fluid img-thumbnail" alt="Avatar" style="width:300px;height:200px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>John Doe</h1>
+                <p>Architect & Engineer</p>
+                <p>We love that guy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+          <div class="flip-card mt-5">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="image/workimg1.jpg" class="img-fluid img-thumbnail" alt="Avatar" style="width:300px;height:200px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>John Doe</h1>
+                <p>Architect & Engineer</p>
+                <p>We love that guy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+          <div class="flip-card mt-5">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="image/mywork3.jpg" class="img-fluid img-thumbnail" alt="Avatar" style="width:300px;height:200px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>John Doe</h1>
+                <p>Architect & Engineer</p>
+                <p>We love that guy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+          <div class="flip-card mt-5">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="image/mywork4.jpg" class="img-fluid img-thumbnail" alt="Avatar" style="width:300px;height:200px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>John Doe</h1>
+                <p>Architect & Engineer</p>
+                <p>We love that guy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+          <div class="flip-card mt-5">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="image/mywork5.jpg" class="img-fluid img-thumbnail" alt="Avatar" style="width:300px;height:200px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>John Doe</h1>
+                <p>Architect & Engineer</p>
+                <p>We love that guy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+          <div class="flip-card mt-5">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="image/mywork6.webp" class="img-fluid img-thumbnail" alt="Avatar" style="width:300px;height:200px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>John Doe</h1>
+                <p>Architect & Engineer</p>
+                <p>We love that guy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+          <button type="button" class="btn btn-outline-secondary mt-5">See More</button>
+          
+        </div>
+      </div>
+      <!-- Closing tags for the 'row' and 'container' -->
+    </div>
+  </section>
+  
+
+
+  <!-- Contact -->
+  <section class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 com-lg-6 col-12 col-sm-12">
+          <h1 class="mt-5" id="contact">Contact Me</h1>
+
+          <div class="col-md-6 com-lg-6 col-12 col-sm-12 mt-3">
+          <p id="paracontact"> <i class="fa-regular fa-envelope"></i> ganeshprasadsahoo348@gmail.com</p>
+          </div>
+          <div class="col-md-6 com-lg-6 col-12 col-sm-12">
+            <p id="paracontact"><i class="fa-solid fa-mobile"></i>+91-7847042XXX</p>
+          </div>
+          <div class="col-md-6 col-lg-6 col-12 col-sm-12" id="contactsocial">
+            <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"><i class="fa-brands fa-linkedin" style="margin-right: 5px;"></i></a>
+          
+            <a href="https://www.instagram.com/_gan_esh_18/" target="_blank" rel="noopener noreferrer"  style="text-decoration: none;"><i class="fa-brands fa-instagram" style="margin-right: 5px"></i></a>
+          
+            <a href="https://github.com/GaneshPrasadSahoo" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"><i class="fa-brands fa-github" style="margin-right: 5px"></i></a>
+          </div>
+          
+
+          <div class="col-md-6 com-lg-6 col-12 col-sm-12 mt-3">
+            <button type="button" class="btn btn-outline-warning">Download Resume</button>
+
+          </div>
+        </div>
+
+
+        <div class="col-md-6 com-lg-6 col-12 col-sm-12">
+      
+          <div class="mb-3 mt-5">
+            <label for="exampleFormControlInput1" class="form-label">Your name</label>
+            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Ganesh prasad...">
+          </div>
+
+          <div class="col-md-6 mt-3">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="ganeshprasadsahoo@348....">
+        </div>
+        
+
+
+        <div class="mb-3 mt-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write something.."></textarea>
+      </div>
+      <a href="#homelink">
+      <button type="button" class="btn btn-outline-info rounded-start">Submit</button>
+    </a>
+      
+          
+        
+          
+          
+        </div>
+      </div>
+    </div>
+
+
+
+</section>
+<div class="container-fluid bg-warning text-white text-center lh-2 p-2 fs-5 mt-5">Copyright @ Ganesh <i class="fa-solid fa-code"></i></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
